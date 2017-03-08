@@ -1,0 +1,12 @@
+Identity ZID
+=====================
+
+Intro
+-----
+Identity is a digital currency that works peer to peer and is decentralized.
+
+It features a personal ID that allows you to access important information.
+
+Its private and safe to use, creating a universal gateway to you and your money.
+
+Identity version 1.0.0 beta
