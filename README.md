@@ -21,6 +21,7 @@ From Terminal use: (--> symbol is to show you need to type a command DONT INCLUD
 (wait for it to compile)
 
 --> cd build/release/src
+
 To run chain (make sure you are in the right directory E.G. Identity/build/release/src)
 
 --> ./identityd
