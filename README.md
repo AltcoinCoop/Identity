@@ -1,6 +1,6 @@
 ## Building Identity
 
-RECOMMENDED set up, Ubuntu 14, g++, cmake, Libboost 1.55-all-dev
+RECOMMENDED set up, Ubuntu 14.4, g++, cmake, Libboost 1.55-all-dev
 
 From Terminal use: (--> symbol is to show you need to type a command DONT INCLUDE IT) (Same with () those are there to help, dont include them in the command)
 
