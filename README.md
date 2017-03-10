@@ -12,9 +12,9 @@ From Terminal use: (--> symbol is to show you need to type a command DONT INCLUD
 
 --> sudo apt-get install git
 
---> git clone https://github.com/IdentityProject/Identity.git (optional add a folder destination otherwise default is Identity)
+--> git clone https://github.com/IdentityProject/Identity.git cryptonote
 
---> cd (name of folder you created, Default will be Identity)
+--> cd cryptonote
 
 --> make
 
@@ -22,7 +22,7 @@ From Terminal use: (--> symbol is to show you need to type a command DONT INCLUD
 
 --> cd build/release/src
 
-To run chain (make sure you are in the right directory E.G. Identity/build/release/src)
+To run chain (make sure you are in the right directory E.G. cryptonote/build/release/src)
 
 --> ./identityd
 
