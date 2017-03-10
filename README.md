@@ -35,7 +35,7 @@ To run chain (make sure you are in the right directory E.G. cryptonote/build/rel
 --> stop_mining
 
 If you need a wallet address look at section below.
-To create a wallet on the terminal simply use (make sure you are not still running the chain)
+To create a wallet on the terminal simply use (make sure you ARE still running the chain)
 
 --> ./simplewallet
 
