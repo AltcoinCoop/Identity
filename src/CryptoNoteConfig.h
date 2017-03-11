@@ -88,7 +88,7 @@ const uint64_t MIN_BLOCK_REWARD                              = (UINT64_C(7777) *
 const uint64_t REWARD_HALVING_INTERVAL                       = (UINT64_C(11000));
 
 const char     CRYPTONOTE_NAME[]                             = "identity";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010601ff00018082a194d116029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121016a2870d04757cca07bb64d2d3580c4f4ae3014804bc0024d9040b3173390680e";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010601ff00018082a194d116029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101bfa4ee9a2f9aa666998e80eb0d71c19a6c1c07c7be49b1069984361560912d56";
 
 const uint32_t GENESIS_NONCE                                 = 420;
 
@@ -142,7 +142,7 @@ __attribute__((unused))
 // {<block height>, "<block hash>"},
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
 
-{ 194594, "7b38fea1f45b3d73e513d0727a623862ae68e6c3290d7b134a7418b8a561a23b"},
+
 };
 
 } // CryptoNote
