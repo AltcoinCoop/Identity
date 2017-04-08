@@ -125,8 +125,10 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "85ae8734f90bc1ee295ceb0ec05a49852d4dbbc9d1c27a619b5f4bdf26a0196e";
 
 const std::initializer_list<const char*> SEED_NODES = {
-  "45.79.104.187:7000",
+ "45.79.104.187:7000",
  "45.33.116.80:7000",
+ "45.56.81.5:7000",
+  
 };
 
 struct CheckpointData {
@@ -142,7 +144,11 @@ __attribute__((unused))
 // {<block height>, "<block hash>"},
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
 
-
+  { 5000, "f88594ffa398c0081530da5aacd62aed048af93aa90d485b4cd40cf007f05bef"},
+  { 10000, "b1e51618d80bb45794f49c8492a26f73669749861b72a9aee2104c421917116e"},
+  { 20000, "9c9bece5954d0f0817bb15ce80cb6bacb57c220b1233402e7bf1e6f566d29562"},
+  { 28550, "e70f2716bb6d55a58d520fcc694bc9f94294c182e8d089f3db0570057cb81ccc"},
+  
 };
 
 } // CryptoNote
